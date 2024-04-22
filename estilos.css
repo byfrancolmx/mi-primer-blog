@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b-img {
+    background-image: url(img/pictures/pared.jpg);
+    background-size: 100% 100%;
+}
+
+.first-header {
+    text-decoration: underline;
+    background: #cbd5e1;
+}
+
+.header-txt {
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+
+.header-txt h1 {
+    padding: 15px 0px;
+    font-size: 40px;
+}
+
+.header-txt p {
+    font-size: 20px;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+header img {
+    height: 195px;
+    width: 205px;   
+}
+
+.nav {
+    display: flex;
+    padding: 0px 32px;
+    background: #9ca3af;
+    margin: 0px 0px 95px;
+}
+
+.nav li {
+    padding: 15px 10px;
+}
+
+.title-object {
+    padding: 20px 0px;
+    position: relative;
+    left: 40px;
+    text-decoration: underline;
+}
+
+.nav a {
+    color: #0d0d00;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.nav a:hover {
+    color: brown;
+}
+
+.nav a:active {
+    color: red;
+}
+
+.portfolio {
+    text-align-last: center;
+}
+
+div .portfolio {
+    padding: 20px 34%;
+}
+
+article {
+    border: 3px solid #0d0d00;
+    border-style: inset;
+    border-radius: 25px;
+    margin: 40px 0px;
+    cursor: pointer;
+    background: #64748b;
+    transition: all 0.7s;
+}
+
+article:hover {
+    box-shadow: 0px 0px 45px goldenrod;
+}
+
+.article-txt {
+    padding: 5px 0px;
+}
+
+.article-txt h1 {
+    padding: 10px 0px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.article-txt h6 {
+    font-size: 16px;
+    text-decoration: underline;
+    padding: 16px 0px;
+}
+
+article img {
+    height: 300px;
+    width: 310px;
+    border: 2px solid #0d0d00; 
+}
+
+.foot-article {
+    margin: 19px 21px;
+    font-size: 16px;
+}
+
+.servicios {
+    text-align-last: center;
+    padding: 20px 34%;
+}
+
+.servicios h1 {
+    padding: 23px 0px;
+    text-decoration: underline;
+    font-size: 27px;
+}
+
+.servicios p {
+    color: #ffffff;
+}
+
+.footer-first {
+    background: linear-gradient(222deg, rgba(77, 142, 216, 0.6), rgba(236, 182, 82, 0.6), rgba(131, 199, 218, 0.6));
+}
+
+.footer-nav ul {
+    display: flex;
+    padding: 44px 30px 20px;
+}
+
+.footer-nav a {
+    color: #0d0d00;
+    font-size: 19px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.footer-nav a:hover {
+    color: brown;
+}
+
+.footer-nav a:active {
+    color: red;
+}
+
+.nav-menu {
+    position: relative;
+    top: 15px;
+    padding: 0px 15px;
+}
+
+.contact {
+    padding: 0px 15px;
+}
+
+.footer-second {
+    text-align-last: center;
+    color: #0d0d00;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+    
